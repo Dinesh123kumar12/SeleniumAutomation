@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  thread-count= "2"  name ="WebApp Testing" parallel="tests">
+
+
+  <test name="flipkart">
+    <classes>
+      <class name="Test.LoginToFlipkart"/>
+    </classes>
+    </test><!-- Test -->
+    
+     <test name="MakeMyTrip">
+    <classes>
+      <class name="Test.LogintoMMT"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
